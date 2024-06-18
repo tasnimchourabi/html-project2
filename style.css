@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    color: #000;
+    max-width: 98%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151414;
+    padding: 1em 2em;
+    top: 0;
+    left: 0;
+}
+a{
+    all: unset;
+}
+
+.navbar-left .restaurant-name {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Brush Script MT', cursive; 
+    padding-left: 80px;
+   
+}
+
+.navbar-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 3em;
+    font-size: 1.2em;
+    font-family: cursive;
+    padding-right: 40px;
+    
+}
+
+
+.home-sec {
+    padding-top: 70px;
+    height:  calc(100vh - 70px);
+    background: url('bk.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+.img{
+    border-radius: 20px;
+    height:500px;
+    transform: translate(800px,-650px);
+    
+    
+}
+.h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;   
+    transform: translate(30px,-90px);
+}
+ 
+.para{
+    font-family: cursive;
+    max-width: 600px; 
+    margin-left: 10 auto; 
+    padding-left: 20px;
+    line-height: 40px;
+    font-size:  27px; ;
+    transform: translateY(-180px);
+}
+.btn{
+    color: #fff;
+    font-size: 30px;
+    background-color: rgb(232, 204, 22);
+    border-radius: 10px;
+    width: 250px;
+    height: 70px;
+  transform: translateX(210px);
+    
+}
+.title{
+    font-family: cursive;
+    font-size: 60px;
+    align-content: center;
+    color: rgb(232, 204, 22) ;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 18rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color:rgb(232, 204, 22);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color:rgb(232, 204, 22);
+}
+.about{
+padding-top: 70px;
+height:  calc(100vh - 70px);
+background: url('HD-wallpaper-food-pizza.jpg') no-repeat center center fixed;
+background-size: cover;
+color: #fff;
+}
+.abt{
+    font-family: cursive;
+    max-width: 600px; 
+    margin-left: 10 auto; 
+    padding-left: 70px;
+    line-height: 40px;
+    font-size:  30px; ;
+    transform: translateY(-80px);
+}
+.titl{
+    font-family: cursive;
+    font-size: 60px;
+    align-content: center;
+    color: rgb(232, 204, 22) ;
+    transform: translateY(-90px);
+
+}
+
+
+.book-table-section {
+    padding: 100px 20px; 
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1100px;
+    transform: translateY(-120px);
+}
+
+.form-group {
+    margin-bottom: 35px;
+    padding-right: 30px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+   
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.btn-primary {
+    background-color: rgb(232, 204, 22);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    cursor: pointer;
+   transform: translateX(400px);
+}
+.footer {
+    background-color: #151414;
+    color: #fff;
+    padding: 50px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: translatey(50px);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+}
+
+.footer-left h3, .footer-right h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin-bottom: 10px;
+}
+
+.footer-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.footer-right ul li a:hover {
+    color: rgb(232, 204, 22);
+    cursor: pointer;
+}
+.n:hover {
+    color: rgb(232, 204, 22);
+    cursor: pointer;
+}
+
+
+
